@@ -11,9 +11,9 @@ function addSubCalculator() {
       <div class="dropdown">
         <button class="dropdown-btn">Choose form ▼</button>
         <div class="dropdown-options">
-          <button class="form-option">Kubus</button>
-          <button class="form-option">Prisma</button>
-          <button class="form-option">Piramide</button>
+          <button class="form-option">Cube</button>
+          <button class="form-option">Prism</button>
+          <button class="form-option">Pyramid</button>
           <button class="form-option">Steekkap</button>
         </div>
       </div>
@@ -32,7 +32,7 @@ function addSubCalculator() {
             <input type="number" id="input-c-${subCalculatorCount}">
           </div>
         </div>
-        <button class="calculate-btn" data-index="${subCalculatorCount}">Berekenen</button>
+        <button class="calculate-btn" data-index="${subCalculatorCount}">Calculate</button>
         <p class="result">Vorm ${subCalculatorCount} Volume: <span class="value">0</span> m<sup>3</sup></p>
       </div>
       <div class="operation">
